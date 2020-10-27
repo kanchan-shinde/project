@@ -1,0 +1,125 @@
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background: #c5c5c5;
+    box-shadow: 0px 2px 77px 1px rgba(0,0,0,0.5);
+    width: 100%;
+    position:fixed;
+    top:0px;
+    left:0;
+    z-index: 1;
+}
+.menu-item{
+    display: inline-block;
+    height: 40px;
+    width: auto;
+    padding: 10px;
+    background:mediumseagreen;
+    flex-shrink:0 ;
+}
+.link{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 5px;
+}
+.box-item{
+    background-color: salmon;
+    padding: 40px;
+    box-shadow: 0px 2px 7px 1px rgba(0,0,0,0.5);
+    border: 1px solid #000;
+    margin: 0px 10px;
+    position: relative;
+}
+.bg-gold{
+    background-color: gold;
+    color: #000;
+}
+.bg-white{
+    background-color: white;
+    color: #000;
+}
+
+.content{
+    display:flex;
+    margin:60px auto;
+    justify-content: center;
+    
+}
+.bg-img-content{
+    height: 400px;
+    background:url('assets/maxresdefault.jpg')no-repeat fixed 0px 0px/cover;
+    margin: 50px auto;
+}
+
+.btn{
+    height: 40px;
+    background-color: #3F51B5;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #fff;
+    position:fixed;
+    right: 10px;
+    bottom: 20px;
+}
+
+.container{
+    width: 80%;
+    padding:10px;
+    margin:0px auto;
+    display:flex;
+    flex-direction:row;
+    
+}
+.graphics-holder{ 
+   /* border: 1px solid #000; */ 
+    align-self: center;
+    position: relative; 
+    width:180px;
+    flex-shrink: 0;      
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid red;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    position: relative;
+    z-index: 5;
+    color:white;
+    background-color: forestgreen;
+}
+.arrow{
+    border: 20px solid #000;
+    border-width: 40px 0px 40px 70px;
+    border-color: transparent black transparent yellow;
+    border-style: gold;
+    position: absolute;
+    top:8px;
+    right: 0px;
+}
+.data-container{
+    border: 2px solid #000;  
+    flex-grow: 1;
+    padding: 30px 10px;
+    position: relative;
+}
+.contact-form{
+    display: grid;
+    grid-template-columns: 100px;
+    grid-gap:10px;
+}
+.form-btn{
+    background-color: #3F51B5;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -15px;
+    width: 110px;
+    height: 30px;
+    border-radius: 10px;
+}
